@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="971.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="button" layoutY="-4.0" prefHeight="575.0" prefWidth="177.0" styleClass="left-form">
+         <children>
+            <Label layoutX="27.0" layoutY="111.0" prefHeight="26.0" prefWidth="122.0" text="Welcome,Back" textFill="#4e0d0d">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label layoutX="47.0" layoutY="144.0" text="Emon" textFill="#53ac23">
+               <font>
+                  <Font name="System Bold Italic" size="26.0" />
+               </font></Label>
+            <Line endX="76.69999694824219" layoutX="99.0" layoutY="180.0" startX="-100.0" />
+            <Button fx:id="button" layoutX="15.0" layoutY="212.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Dashboard" />
+            <Button fx:id="button" layoutX="15.0" layoutY="277.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Available Books" />
+            <Button fx:id="button" layoutX="11.0" layoutY="335.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Purchase" />
+         </children>
+         <stylesheets>
+            <URL value="@Dashboarddesign.css" />
+            <URL value="@loginDesin.css" />
+         </stylesheets>
+      </AnchorPane>
+      <AnchorPane layoutX="181.0" layoutY="52.0" prefHeight="514.0" prefWidth="287.0">
+         <children>
+            <TextField layoutX="109.0" layoutY="167.0" />
+            <TextField layoutX="109.0" layoutY="219.0" />
+            <TextField layoutX="109.0" layoutY="271.0" />
+            <Label layoutX="3.0" layoutY="171.0" prefWidth="66.0" text="Book Id :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="3.0" layoutY="222.0" prefHeight="22.0" prefWidth="82.0" text="Book Title:">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="10.0" layoutY="274.0" prefHeight="18.0" prefWidth="51.0" text="Genre :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <DatePicker layoutX="108.0" layoutY="318.0" prefHeight="26.0" prefWidth="150.0" />
+            <Label layoutX="3.0" layoutY="322.0" text="Published Date:">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="22.0" layoutY="398.0" prefHeight="18.0" prefWidth="44.0" text="Price:">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <TextField layoutX="110.0" layoutY="395.0" />
+            <Button layoutX="17.0" layoutY="114.0" mnemonicParsing="false" text="Add" />
+            <Button layoutX="185.0" layoutY="114.0" mnemonicParsing="false" text="Update" />
+            <Button fx:id="Delete" layoutX="96.0" layoutY="114.0" mnemonicParsing="false" text="Delete" />
+            <TextField layoutX="111.0" layoutY="355.0" />
+            <Label layoutX="18.0" layoutY="359.0" text="Author">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+         </children>
+         <stylesheets>
+            <URL value="@Dashboarddesign.css" />
+            <URL value="@Dashboarddesign.css" />
+         </stylesheets>
+      </AnchorPane>
+      <AnchorPane layoutX="501.0" prefHeight="553.0" prefWidth="469.0">
+         <children>
+            <TableView layoutX="-31.0" layoutY="56.0" prefHeight="489.0" prefWidth="469.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Book Id" />
+                <TableColumn prefWidth="75.0" text="Book Titile" />
+                  <TableColumn prefWidth="55.20001220703125" text="Author" />
+                  <TableColumn prefWidth="64.79998779296875" text="Genre" />
+                  <TableColumn prefWidth="106.199951171875" text="Published Data" />
+                  <TableColumn prefWidth="84.199951171875" text="Price" />
+              </columns>
+            </TableView>
+            <TextField layoutX="167.0" layoutY="14.0" prefHeight="26.0" prefWidth="231.0" text="Search" />
+         </children></AnchorPane>
+      <Label layoutX="190.0" layoutY="23.0" prefHeight="17.0" prefWidth="267.0" text="Book Shop Management System" textFill="#b59018">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font></Label>
+   </children>
+</Pane>

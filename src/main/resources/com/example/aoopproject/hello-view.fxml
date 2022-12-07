@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="277.0" styleClass="left-form">
+
+         <children>
+
+            <Label layoutX="424.0" layoutY="150.0" text="Log In Admin">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            
+            <PasswordField layoutX="399.0" layoutY="240.0" prefHeight="26.0" prefWidth="176.0" promptText="Password" />
+            <TextField fx:id="first" layoutX="399.0" layoutY="200.0" prefHeight="26.0" prefWidth="176.0" promptText="Username" />
+            <Button fx:id="button" layoutX="399.0" layoutY="287.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="176.0" text="Log in" textFill="#100909" />
+            <Button layoutX="558.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" text="X" textFill="#231c1c">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="400.0" prefWidth="287.0">
+               <effect>
+                  <ColorAdjust />
+               </effect>
+               <children>
+                  <ImageView fitHeight="158.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="C:\Users\Iqbal Hossain Emon\Downloads\book.jfif" />
+                  </image>
+                  </ImageView>
+                  <Label prefHeight="38.0" prefWidth="234.0" text="           BOOK SHOP" textFill="#5e3c3c">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font></Label>
+                  <Label prefHeight="68.0" prefWidth="283.0" text="                  MANAGEMENT SYSTEM" textFill="#9da3a9">
+                     <font>
+                        <Font name="System Bold Italic" size="17.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+
+               <Label />
+               <ImageView fitHeight="87.0" fitWidth="142.0" layoutX="409.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="C:\Users\Iqbal Hossain Emon\Downloads\admin.jpg" />
+                  </image>
+               </ImageView>
+
+         </children>
+         <stylesheets>
+            <URL value="@loginDesin.css" />
+            <URL value="@Dashboarddesign.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</StackPane>
